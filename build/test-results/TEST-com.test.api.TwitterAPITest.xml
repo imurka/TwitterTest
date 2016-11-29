@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.api.TwitterAPITest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-11-29T21:59:01" hostname="Iryna" time="4.588">
+  <properties/>
+  <testcase name="testTweet" classname="com.test.api.TwitterAPITest" time="1.983"/>
+  <testcase name="testValidFileUpload" classname="com.test.api.TwitterAPITest" time="1.395"/>
+  <testcase name="testTweetOverLength" classname="com.test.api.TwitterAPITest" time="0.514"/>
+  <testcase name="testInvalidFileUpload" classname="com.test.api.TwitterAPITest" time="0.695"/>
+  <system-out><![CDATA[200
+200
+403
+400
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

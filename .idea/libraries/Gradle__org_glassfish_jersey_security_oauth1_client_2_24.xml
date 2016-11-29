@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.glassfish.jersey.security:oauth1-client:2.24">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.security/oauth1-client/2.24/be2bd6475d67f8030e3b4769ea73657947774a12/oauth1-client-2.24.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.security/oauth1-client/2.24/7a70950180ea341e23f99663c86af67c34c9f3c3/oauth1-client-2.24-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

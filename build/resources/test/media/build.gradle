@@ -1,0 +1,40 @@
+group 'com.test'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+//dependencies {
+//    testCompile group: 'junit', name: 'junit', version: '4.11'
+//    testCompile "javax.ws.rs:jsr311-api:1.1.1"
+//
+//    testCompile group: 'com.sun.jersey', name: 'jersey-client', version: '1.19.3'
+//    testCompile 'com.sun.jersey:jersey-server:2.5.1'
+//    testCompile 'com.sun.jersey:jersey-core:2.5.1'
+//    testCompile 'com.sun.jersey:jersey-servlet:2.5.1'
+//
+//
+//    testCompile 'org.glassfish.jersey.security:oauth1-client:2.24'
+//    testCompile group: 'org.glassfish.jersey.media', name: 'jersey-media-json-jackson', version: '2.24'
+//    testCompile group: 'org.glassfish.jersey.media', name: 'jersey-media-multipart', version: '2.24'
+//}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+//    testCompile "javax.ws.rs:jsr311-api:1.1.1"
+    testCompile "javax.ws.rs:javax.ws.rs-api:2.0.1"
+
+    testCompile group: 'org.glassfish.jersey.core', name: 'jersey-client', version: '2.24'
+    testCompile 'org.glassfish.jersey.core:jersey-server:2.24'
+    testCompile 'org.glassfish.jersey.containers:jersey-container-servlet:2.24'
+    //testCompile 'org.glassfish.jersey.core:jersey-core:2.24'
+    //testCompile 'org.glassfish.jersey.core:jersey-servlet:2.24'
+
+
+    testCompile 'org.glassfish.jersey.security:oauth1-client:2.24'
+    testCompile group: 'org.glassfish.jersey.media', name: 'jersey-media-json-jackson', version: '2.24'
+    testCompile group: 'org.glassfish.jersey.media', name: 'jersey-media-multipart', version: '2.24'
+}
